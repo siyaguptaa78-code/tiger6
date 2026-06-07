@@ -1,0 +1,292 @@
+.infoSection {
+  background-color: var(--background);
+  color: var(--text-primary);
+  padding: 4rem 0;
+}
+
+.card {
+  background: var(--secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+  box-shadow: var(--shadow-dark);
+  transition: var(--transition);
+}
+
+.card:hover {
+  border-color: rgba(var(--primary-rgb), 0.3);
+}
+
+.welcomeCard {
+  border-left: 5px solid var(--primary);
+  position: relative;
+  overflow: hidden;
+}
+
+.welcomeCard::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgba(var(--primary-rgb), 0.08) 0%, rgba(255,255,255,0) 70%);
+  pointer-events: none;
+}
+
+.sectionTitle {
+  font-size: 2.2rem;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+  font-family: var(--font-fjalla), sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.cardTitle {
+  font-size: 1.8rem;
+  color: var(--text-primary);
+  margin-bottom: 1.2rem;
+  font-family: var(--font-fjalla), sans-serif;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.8rem;
+}
+
+.paragraph {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+/* Steps Grid (1x5 on Desktop, collapses on mobile) */
+.stepsGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.stepCard {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  text-align: center;
+  position: relative;
+  transition: var(--transition);
+}
+
+.stepCard:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary);
+  background: rgba(247, 99, 12, 0.03);
+}
+
+.stepNumber {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--gradient-gold);
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.2rem auto;
+  box-shadow: var(--shadow-gold);
+}
+
+.stepCard h3 {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+.stepCard p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Grids for other content */
+.threeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.subCard {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 2rem 1.5rem;
+  transition: var(--transition);
+}
+
+.subCard:hover {
+  transform: translateY(-5px);
+  border-color: rgba(var(--primary-rgb), 0.3);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.cardIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.subCard h3 {
+  font-size: 1.25rem;
+  color: var(--primary);
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+.subCard p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Tips Card */
+.tipsCard {
+  border-left: 5px solid #ffcc00;
+}
+
+.tipsList {
+  list-style: none;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tipsList li {
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tipsList li span {
+  font-size: 1.2rem;
+}
+
+/* Why Choose Grid */
+.twoColumnGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.whyCard {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.8rem;
+  transition: var(--transition);
+}
+
+.whyCard:hover {
+  border-color: rgba(var(--primary-rgb), 0.3);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.whyHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.whyIcon {
+  font-size: 1.8rem;
+}
+
+.whyCard h3 {
+  font-size: 1.2rem;
+  color: var(--primary);
+  margin: 0;
+  font-weight: 700;
+}
+
+.whyCard p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Button & Action Wrappers */
+.btnWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.ctaBtn {
+  font-size: 1.1rem !important;
+  padding: 14px 32px !important;
+  border-radius: var(--radius-sm) !important;
+  text-transform: none !important;
+}
+
+.aboutCtaBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.largeAboutBtn {
+  font-size: 1.2rem !important;
+  padding: 16px 40px !important;
+  border-radius: 50px !important;
+  text-transform: none !important;
+  width: auto;
+}
+
+/* Responsive Overrides */
+@media (max-width: 1024px) {
+  .stepsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .threeGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .stepsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .threeGrid {
+    grid-template-columns: 1fr;
+  }
+  .twoColumnGrid {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding: 1.8rem;
+  }
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+  .cardTitle {
+    font-size: 1.5rem;
+  }
+  .largeAboutBtn {
+    width: 100%;
+    font-size: 1rem !important;
+    padding: 14px 20px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .stepsGrid {
+    grid-template-columns: 1fr;
+  }
+}
