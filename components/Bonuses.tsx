@@ -6,7 +6,7 @@ export default function Bonuses() {
     <section className={`section-padding ${styles.section}`}>
       <div className="container">
         <h2 className="section-title text-center">
-          <span>{SITE_CONFIG.brand.name}</span> Bonuses – Complete Breakdown
+          <span>{SITE_CONFIG.brand.name}</span> Bonuses – Complete Breakdown you need
         </h2>
 
         <div className={styles.grid}>
