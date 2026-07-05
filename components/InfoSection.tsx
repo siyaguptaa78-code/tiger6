@@ -15,7 +15,7 @@ export default function InfoSection() {
         <div className={`${styles.card} ${styles.welcomeCard}`}>
           <h1 className={styles.sectionTitle}>Welcome to Tiger365</h1>
           <p className={styles.paragraph}>
-            Your go-to place for thrilling, safe, secure, and excellent online gaming and sports online gaming is Tiger365. Our platform provides a seamless and captivating gaming experience driven by modern technology, real-time analytics, and a variety of games and online gaming markets, regardless of your level of experience as a sports bettor. We are dedicated to provide the strong security, competitive game ratio, quick wallet service, and attentive customer service that today's players demand as a leading sports online gaming site.
+            Your place for exciting and enjoyable online gaming and sports online gaming is Tiger365. Our platform delivers an exciting and engaging gaming experience fueled by modern technology and real-time analytics, as well as a diverse choice of games and online gaming markets, to satisfy even the most seasoned sports bettor. We strive to provide high-standard security, competitive game ratio, quick wallet service, and exceptional customer support, as a leading sports online gaming site should.
           </p>
         </div>
 
@@ -25,34 +25,34 @@ export default function InfoSection() {
         <div className={styles.card}>
           <h2 className={styles.cardTitle}>How to Get a Tiger365 ID?</h2>
           <p className={styles.paragraph}>
-            To fully utilise all of the capabilities on the Tiger365 platform, you must first create your own Tiger365 ID.
+            In order to begin using all of the fantastic features on the Tiger365 portal, you will need to create your own Tiger365 ID.
           </p>
           
           <div className={styles.stepsGrid}>
             <div className={styles.stepCard}>
               <div className={styles.stepNumber}>1</div>
               <h3>Official Website</h3>
-              <p>The first step to logging in to the website and starting the registration process is to visit the Tiger365 ID official website.</p>
+              <p>The first step in logging into the website is to go to the Tiger365 ID official website.</p>
             </div>
             <div className={styles.stepCard}>
               <div className={styles.stepNumber}>2</div>
               <h3>Tiger365 Register</h3>
-              <p>Clicking the Tiger365 Register button will bring you to the signup page on the homepage.</p>
+              <p>By clicking on the Tiger365 Register button, you will be directed to the sign-up page on the homepage.</p>
             </div>
             <div className={styles.stepCard}>
               <div className={styles.stepNumber}>3</div>
               <h3>Fill details</h3>
-              <p>To create a unique and validated Tiger365 gaming ID, accurately enter your name, mobile number, and other necessary information.</p>
+              <p>To generate a unique and verified Tiger365 gaming ID, you will be required to fill in certain personal information such as your name, mobile phone number, etc.</p>
             </div>
             <div className={styles.stepCard}>
               <div className={styles.stepNumber}>4</div>
               <h3>Receive ID</h3>
-              <p>You are instantly given an official Tiger365 ID to access the secure player dashboard after completing your registration.</p>
+              <p>You will receive an official Tiger365 ID to help you access the secure player dashboard upon successful sign-up.</p>
             </div>
             <div className={styles.stepCard}>
               <div className={styles.stepNumber}>5</div>
               <h3>Start Exploring</h3>
-              <p>To log in and make add balance, use your generated Tiger365 ID and password, which will be used for online gaming.</p>
+              <p>By using your generated Tiger365 ID and password, you may log in and add balance to start enjoying online gaming.</p>
             </div>
           </div>
         </div>
@@ -63,10 +63,10 @@ export default function InfoSection() {
         <div className={styles.card}>
           <h2 className={styles.cardTitle}>Tiger365 Login Process</h2>
           <p className={styles.paragraph}>
-            Any user can easily and safely log into Tiger365. Your account will always be accessible in one click.
+            Any user can effortlessly log in to Tiger365. Your account will always be available at the touch of a button.
           </p>
           <p className={styles.paragraph}>
-            Logging into your account is very easy once you have created your ID. To view your dashboard immediately, all you need to do is enter your login credentials. This process is entirely safe and is designed to work on both desktops and smartphones.
+            It is super easy to login to your account when you have created your ID. By simply providing your login details to view your dashboard straight away. This process is absolutely secure and is compatible with desktop and smartphone devices.
           </p>
           <div className={styles.btnWrapper}>
             <WhatsAppButton className={styles.ctaBtn}>
@@ -81,24 +81,24 @@ export default function InfoSection() {
         <div className={styles.card}>
           <h2 className={styles.cardTitle}>What are The Accepted Wallet Service Methods For Tiger365</h2>
           <p className={styles.paragraph}>
-            You can easily add balance and begin online gaming right away when you register at Tiger365 because you have access to a variety of wallet service options. We have customized our solutions to meet the demands of Indian users since we recognize how important it is to have quick, safe, and reliable wallet service alternatives.
+            When you register for Tiger365, you may swiftly add balance to start online gaming since you have access to a variety of wallet service methods. We have tailored our solutions to meet the needs of Indian consumers since we recognize how important it is to provide rapid and dependable wallet service options.
           </p>
           
           <div className={styles.threeGrid}>
             <div className={styles.subCard}>
               <div className={styles.cardIcon}>💳</div>
               <h3>Credit/Debit Cards</h3>
-              <p>Indian customers can add balance straight from their bank accounts because we accept well-known credit and debit cards like Visa and MasterCard. It's a quick and simple way to make a wallet service. After creating an account and adding balance, you can begin online gaming right away.</p>
+              <p>Indian clients may make deposits straight from their bank accounts because we accept credit/debit cards. Using popular cards such as Visa and MasterCard, you may quickly and easily make a wallet service. After registering and adding funds to your account, you’ll be able to engage in online gaming right away.</p>
             </div>
             <div className={styles.subCard}>
               <div className={styles.cardIcon}>📱</div>
               <h3>E-Wallets</h3>
-              <p>For individuals who want quick and safe transactions, we provide e-wallet wallet service options including Paytm, PhonePe, Google Pay, and Skrill. These offer smooth add balance and redemption procedures and are widely used in India. Just connect your Tiger365 registration account to your e-wallet.</p>
+              <p>We provide a variety of e-wallet options for those seeking to make quick and secure payments. Wallet service options such as Paytm, PhonePe, Google Pay, Skrill, and others are available. Deposits and withdrawals are simple and quick transactions that are widely used in India. Simply attach your Tiger365 registration account to your e-wallet.</p>
             </div>
             <div className={styles.subCard}>
               <div className={styles.cardIcon}>🏦</div>
               <h3>Bank Transfers</h3>
-              <p>Tiger365 allows bank transfers for both add balance and redemption if you would rather make wallet service straight from your bank account. Although it might take a bit longer than other methods, this is a reliable choice, particularly for big amounts. For a reliable experience, you can select this wallet service method after creating an account.</p>
+              <p>Tiger365 also allows bank transfers for deposits and withdrawals if you prefer to make a wallet service from your bank. Even though this process may take much longer than the other two methods, it is a trustworthy option, especially for large transactions. If you want a trustworthy wallet service mechanism, you can choose this option after registering on the portal.</p>
             </div>
           </div>
         </div>
@@ -109,24 +109,24 @@ export default function InfoSection() {
         <div className={styles.card}>
           <h2 className={styles.cardTitle}>Benefits of Using Tiger365</h2>
           <p className={styles.paragraph}>
-            Tiger365 offers a number of benefits that improve the entire gaming experience. It is a popular option among consumers because of these advantages.
+            There are several advantages to using Tiger365, making it an excellent option for gamers looking to have an exciting experience. Because of these benefits, this portal is well-known among clients.
           </p>
           
           <div className={styles.threeGrid}>
             <div className={styles.subCard}>
               <div className={styles.cardIcon}>🎁</div>
               <h3>Attractive Bonuses and Offers</h3>
-              <p>Bonuses provide value and boost chances of winning. They maintain users' motivation and interest. A variety of incentives and special offers are available to both new and existing players, improving the entire gaming experience.</p>
+              <p>These bonuses provide incredible value for money and aid in raising the likelihood of winning. In addition to this, they assist users in generating excitement and increasing their engagement. Users of this portal may take advantage of a wide range of rewards and special promotions that are intended to improve their overall experience.</p>
             </div>
             <div className={styles.subCard}>
               <div className={styles.cardIcon}>📶</div>
               <h3>Mobile Compatibility</h3>
-              <p>Users can play games anywhere, at any time, because of mobile access. It offers convenience and adaptability. Since the platform is completely mobile-friendly, players may enjoy uninterrupted gaming and online gaming while on the go.</p>
+              <p>Because of mobile compatibility, users may enjoy playing games at their convenience. It works both ways: gamers may have access to games wherever and whenever they choose. As a mobile-friendly portal, it enables clients to enjoy uninterrupted online gaming and games at any time.</p>
             </div>
             <div className={styles.subCard}>
               <div className={styles.cardIcon}>🛡️</div>
               <h3>Transparency and Fair Play</h3>
-              <p>Fair gaming provides a reliable experience and promotes trust. On the platform, users can play with assurance. Accurate outcomes and authentic gameplay are guaranteed by Tiger365's transparent online gaming systems and fair gaming methods.</p>
+              <p>Fair gaming ensures that clients have a positive experience, which builds confidence and trust. In this portal, users may expect to find fair play because it promises to deliver honest results and authentic gameplays through its transparent online gaming system.</p>
             </div>
           </div>
         </div>
@@ -137,13 +137,12 @@ export default function InfoSection() {
         <div className={`${styles.card} ${styles.tipsCard}`}>
           <h2 className={styles.cardTitle}>Tips For New Users</h2>
           <p className={styles.paragraph}>
-            Before placing big bets, new users should become familiar with the site. Making better decisions is made easier by smart techniques.
+            Before risking real cash on large wagers, new users should get acquainted with the site. Making educated judgments is aided in by using some excellent ideas.
           </p>
           <ul className={styles.tipsList}>
-            <li><span>📌</span> Always start with a small adding balance to understand the platform.</li>
-            <li><span>📌</span> Explore different online gaming markets before placing large bets.</li>
-            <li><span>📌</span> Use secure wallet service methods for transactions.</li>
-            <li><span>📌</span> Keep your login credentials private to protect your account.</li>
+            <li><span>📌</span> To start with, new users should only use a smaller adding balance to understand how the system works.</li>
+            <li><span>📌</span> Furthermore, it’s a good idea to explore various online gaming markets before investing a large sum of money.</li>
+            <li><span>📌</span> Finally, new users should only use secure wallet service methods and safeguard their login and password from being stolen.</li>
           </ul>
         </div>
 
@@ -153,40 +152,40 @@ export default function InfoSection() {
         <div className={styles.card}>
           <h2 className={styles.cardTitle}>Why Choose Tiger365?</h2>
           <p className={styles.paragraph}>
-            For a secure, seamless, and pleasurable experience, selecting the appropriate online gaming platform is crucial. Tiger365 is unique in that it combines innovative technology, strong safety, and user-focused features in one location.
+            When it comes to online gaming, choosing the right portal that provides a safe and entertaining experience is critical. Tiger365, on the other hand, stands out from the competition because it provides state-of-the-art technology, robust security measures, and customer-centric features that fulfill user expectations.
           </p>
           
           <div className={styles.twoColumnGrid}>
             <div className={styles.whyCard}>
               <div className={styles.whyHeader}>
                 <span className={styles.whyIcon}>🔒</span>
-                <h3>Advanced Security and Data Protection</h3>
+                <h3>Superior Security and Data Encryption</h3>
               </div>
-              <p>Tiger365 places a high premium on user safety. The platform guarantees that all financial and personal information is always secure due to its simple encryption methods and safe login procedures. Users can now concentrate on their games without worrying about security threats.</p>
+              <p>Tiger365 is a well-known site for its customer security and data encryption. This platform ensures that all financial and personal information is protected at all times since it uses a combination of simplified encryption and secure login procedures.</p>
             </div>
 
             <div className={styles.whyCard}>
               <div className={styles.whyHeader}>
                 <span className={styles.whyIcon}>⚡</span>
-                <h3>Fast and Reliable Transactions</h3>
+                <h3>Quick and Convenient Transactions</h3>
               </div>
-              <p>Tiger365's speedy wallet service processing system is one of its main benefits. Users receive a seamless financial experience without needless delays since adding balance are made instantly and redemption are managed effectively.</p>
+              <p>One of Tiger365′s key advantages is its quick wallet service processes. Users get a fantastic experience because balance additions are instantaneous and withdrawals are handled efficiently.</p>
             </div>
 
             <div className={styles.whyCard}>
               <div className={styles.whyHeader}>
                 <span className={styles.whyIcon}>☎️</span>
-                <h3>24/7 Customer Support</h3>
+                <h3>24/7 Customer Service</h3>
               </div>
-              <p>Users can receive round-the-clock assistance from a committed customer support team. Help is always available via message, whether you have inquiries about your account, wallet service, or games.</p>
+              <p>The customer service representatives are available around the clock to respond to any questions or concerns you may have. When it comes to customer support, Tiger365 offers a one-stop-shop solution. In addition, users may contact customer service through the chat function on the website.</p>
             </div>
 
             <div className={styles.whyCard}>
               <div className={styles.whyHeader}>
                 <span className={styles.whyIcon}>⚖️</span>
-                <h3>Commitment to Fair Play</h3>
+                <h3>Commitment to Fair Play and Transparency</h3>
               </div>
-              <p>Fairness and transparency are fundamental to Tiger365's business practices. Every user has an equal chance to win because the platform makes sure that all games and online gaming systems are fair.</p>
+              <p>When it comes to fair use policies, this company goes above and beyond to ensure that all users have a positive experience. By ensuring that all games and systems are fair, Tiger365 gives each player an equal chance to win.</p>
             </div>
           </div>
         </div>

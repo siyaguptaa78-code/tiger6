@@ -19,7 +19,7 @@ export default function Footer() {
         <div className={styles.disclaimerBox}>
           <h4 className={styles.disclaimerTitle}>DISCLAIMER</h4>
           <p className={styles.disclaimerText}>
-            Tiger365 is an exciting fantasy sports platform. However, fantasy sports can be addictive and risky, so we encourage you to play responsibly. Only users who are 18 years or older and can legally participate are allowed to use Tiger365. Please note that we do not serve users from Andhra Pradesh, Assam, Nagaland, Odisha, Sikkim, Telangana, or Tamil Nadu, as their laws prohibit participation. All Tiger365 contests are subject to the site’s terms and conditions. Therefore, we strongly recommend that users review these terms before entering any contests.
+            Tiger365 is a thrilling fantasy sports platform. However, we advise you to only participate in fantasy sports if you are 18 years or older and legally permitted to do so. Please note that Tiger365 is unavailable in Andhra Pradesh, Assam, Nagaland, Odisha, Sikkim, Telangana, and Tamil Nadu because these states have prohibited fantasy sports. All Tiger365 competitions are governed by the terms and conditions of the site. As a result, we recommend that you review them before engaging in any competitions.
           </p>
         </div>
 
@@ -112,7 +112,7 @@ export default function Footer() {
 
         <div className={styles.footerBottom}>
           <p className={styles.copyrightText}>
-            Copyright &copy; {new Date().getFullYear()} tiger365com.com. All Rights Reserved.
+            Copyright &copy; 2026 tiger365com.com. All Rights Reserved.
           </p>
           <div className={styles.footerBtnBox}>
             <a href={SITE_CONFIG.whatsappLink} target="_blank" rel="noopener noreferrer" className={styles.footerWaBtn}>
