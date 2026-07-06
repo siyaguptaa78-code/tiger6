@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import RegistrationSteps from "@/components/RegistrationSteps";
@@ -16,6 +17,24 @@ import LiveExchangeSimulator from "@/components/LiveExchangeSimulator";
 import ExchangeCategories from "@/components/ExchangeCategories";
 import { SITE_CONFIG } from "@/config/constants";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+
+export const metadata: Metadata = {
+  title: "Tiger365 Platform Ultimate Guide For Indian Players",
+  description: "Welcome to Tiger365, India's premier online sports and gaming platform. Get your official Tiger365 ID instantly on WhatsApp, log in securely, and enjoy high-stakes live casino and sportsbooks.",
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: "Tiger365 Platform Ultimate Guide For Indian Players",
+    description: "Welcome to Tiger365, India's premier online sports and gaming platform. Get your official Tiger365 ID instantly on WhatsApp, log in securely, and enjoy high-stakes live casino and sportsbooks.",
+    url: "https://tiger365playid.com",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Tiger365 Platform Ultimate Guide For Indian Players",
+    description: "Welcome to Tiger365, India's premier online sports and gaming platform. Get your official Tiger365 ID instantly on WhatsApp, log in securely, and enjoy high-stakes live casino and sportsbooks.",
+  },
+};
 
 const SECTION_COMPONENTS: Record<string, React.ComponentType> = {
   hero: HeroSection,

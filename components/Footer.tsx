@@ -112,7 +112,7 @@ export default function Footer() {
 
         <div className={styles.footerBottom}>
           <p className={styles.copyrightText}>
-            Copyright &copy; 2026 tiger365com.com. All Rights Reserved.
+            Copyright &copy; 2026 tiger365playid.com. All Rights Reserved.
           </p>
           <div className={styles.footerBtnBox}>
             <a href={SITE_CONFIG.whatsappLink} target="_blank" rel="noopener noreferrer" className={styles.footerWaBtn}>
