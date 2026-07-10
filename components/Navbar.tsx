@@ -62,7 +62,7 @@ export default function Navbar() {
             )}
           </div>
 
-          <a href={getWhatsAppLink("Blogs")} target="_blank" rel="noopener noreferrer">Blogs</a>
+          <Link href="/blogs">Blogs</Link>
           <Link href="#about">About Us</Link>
           <a href={SITE_CONFIG.whatsappLink} target="_blank" rel="noopener noreferrer">Contact Us</a>
         </nav>
@@ -98,7 +98,7 @@ export default function Navbar() {
               </a>
             </div>
           </div>
-          <a href={getWhatsAppLink("Blogs")} target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>Blogs</a>
+          <Link href="/blogs" onClick={() => setMobileMenuOpen(false)}>Blogs</Link>
           <Link href="#about" onClick={() => setMobileMenuOpen(false)}>About Us</Link>
           <a href={SITE_CONFIG.whatsappLink} target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>Contact Us</a>
           <div className={styles.mobileActions}>
