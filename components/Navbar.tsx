@@ -20,7 +20,9 @@ export default function Navbar() {
   }, []);
 
   const getWhatsAppLink = (menuItem: string) => {
-    const text = encodeURIComponent(`Hi! I am visiting your site and want to know more about ${menuItem}.`);
+    const text = encodeURIComponent(
+      `Hi! I am visiting your site and want to know more about ${menuItem}.`,
+    );
     return `${SITE_CONFIG.whatsappLink}?text=${text}`;
   };
 
@@ -29,7 +31,7 @@ export default function Navbar() {
       <div className={`container ${styles.navContainer}`}>
         <Link href="/" className={styles.logo}>
           <div className={styles.logoWrapper}>
-            <Image 
+            <Image
               src="https://tiger365com.com/wp-content/uploads/2025/04/logo-text-768x134.png"
               alt="Tiger365 Logo"
               width={180}
@@ -42,7 +44,7 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <nav className={styles.desktopNav}>
-          <div 
+          <div
             className={styles.navItemDropdown}
             onMouseEnter={() => setDropdownOpen(true)}
             onMouseLeave={() => setDropdownOpen(false)}
@@ -52,10 +54,18 @@ export default function Navbar() {
             </span>
             {dropdownOpen && (
               <div className={styles.dropdownMenu}>
-                <a href={getWhatsAppLink("Tigerexch365")} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={getWhatsAppLink("Tigerexch365")}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Tigerexch365
                 </a>
-                <a href={getWhatsAppLink("Cricket Exchange ID")} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={getWhatsAppLink("Cricket Exchange ID")}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Cricket Exchange ID
                 </a>
               </div>
@@ -64,15 +74,34 @@ export default function Navbar() {
 
           <Link href="/blogs">Blogs</Link>
           <Link href="#about">About Us</Link>
-          <a href={SITE_CONFIG.whatsappLink} target="_blank" rel="noopener noreferrer">Contact Us</a>
+          <a
+            href={SITE_CONFIG.whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contact Us
+          </a>
         </nav>
 
         <div className={styles.navActions}>
-          <WhatsAppButton className={`${styles.desktopBtn} ${styles.registerBtn}`}>
-            Get Instant ID
-          </WhatsAppButton>
-          
-          <button 
+          <a
+            href="https://www.Gabbar247.vip"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${styles.desktopBtn} ${styles.loginBtn}`}
+          >
+            Login
+          </a>
+          <a
+            href="https://www.Gabbar247.vip"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${styles.desktopBtn} ${styles.registerBtn}`}
+          >
+            Register
+          </a>
+
+          <button
             className={styles.mobileMenuBtn}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle Menu"
@@ -90,21 +119,55 @@ export default function Navbar() {
           <div className={styles.mobileDropdownSection}>
             <div className={styles.mobileDropdownHeader}>Tiger365</div>
             <div className={styles.mobileDropdownItems}>
-              <a href={getWhatsAppLink("Tigerexch365")} target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+              <a
+                href={getWhatsAppLink("Tigerexch365")}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+              >
                 - Tigerexch365
               </a>
-              <a href={getWhatsAppLink("Cricket Exchange ID")} target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+              <a
+                href={getWhatsAppLink("Cricket Exchange ID")}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+              >
                 - Cricket Exchange ID
               </a>
             </div>
           </div>
-          <Link href="/blogs" onClick={() => setMobileMenuOpen(false)}>Blogs</Link>
-          <Link href="#about" onClick={() => setMobileMenuOpen(false)}>About Us</Link>
-          <a href={SITE_CONFIG.whatsappLink} target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>Contact Us</a>
+          <Link href="/blogs" onClick={() => setMobileMenuOpen(false)}>
+            Blogs
+          </Link>
+          <Link href="#about" onClick={() => setMobileMenuOpen(false)}>
+            About Us
+          </Link>
+          <a
+            href={SITE_CONFIG.whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            Contact Us
+          </a>
           <div className={styles.mobileActions}>
-            <WhatsAppButton className={`${styles.desktopBtn} ${styles.registerBtn}`}>
-              Get Instant ID
-            </WhatsAppButton>
+            <a
+              href="https://www.Gabbar247.vip"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${styles.desktopBtn} ${styles.loginBtn}`}
+            >
+              Login
+            </a>
+            <a
+              href="https://www.Gabbar247.vip"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${styles.desktopBtn} ${styles.registerBtn}`}
+            >
+              Register
+            </a>
           </div>
         </div>
       )}

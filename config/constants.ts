@@ -25,8 +25,8 @@ export const SITE_CONFIG = {
   },
 
   description: "Your go-to place for thrilling, safe, secure, and excellent online gaming and sports online gaming is Tiger365. Enjoy the best gaming layouts, verified support channels, and direct payouts.",
-  whatsappNumber: "918872189471",
-  whatsappLink: "https://wa.me/916026703858",
+  whatsappNumber: "918796686330",
+  whatsappLink: "https://wa.me/918796686330",
   url: "https://tiger365playid.com",
 
   // ==========================================
