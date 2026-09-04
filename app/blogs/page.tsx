@@ -32,6 +32,35 @@ export default function BlogsPage() {
               </p>
 
               <div className={styles.blogsGrid}>
+                {/* Blog Card 2 (Latest) */}
+                <div className={styles.blogCard}>
+                  <div className={styles.cardImageWrapper}>
+                    <Image
+                      src="/banners/football_banner.jpg"
+                      alt="India Football Friendlies vs Brazil, Uruguay and Panama"
+                      fill
+                      className={styles.cardImage}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      priority
+                    />
+                  </div>
+                  <div className={styles.cardContent}>
+                    <span className={styles.cardTag}>Football News</span>
+                    <h2 className={styles.cardTitle}>
+                      India Football Braces for Historic Run Against Brazil, Uruguay and Panama
+                    </h2>
+                    <p className={styles.cardExcerpt}>
+                      Indian football is preparing for an extraordinary international window, with the national team set to face Panama, five-time FIFA World Cup winners Brazil and two-time champions Uruguay over the coming weeks...
+                    </p>
+                    <div className={styles.cardFooter}>
+                      <span className={styles.cardDate}>Last updated: September 4, 2026</span>
+                      <Link href="/india-football-team-squad-brazil-uruguay-panama-friendlies-2026/" className={styles.readMoreBtn}>
+                        Show More →
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
                 {/* Blog Card 1 */}
                 <div className={styles.blogCard}>
                   <div className={styles.cardImageWrapper}>
