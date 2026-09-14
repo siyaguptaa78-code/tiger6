@@ -5,7 +5,7 @@ import { SITE_CONFIG } from "@/config/constants";
 const featuresData = [
   {
     title: "Official Exchange Account",
-    description: "Your Tiger365 ID acts as a secure, verified digital account to keep betting transparent, organized, and fair.",
+    description: "Your Tiger365 ID acts as a secure, verified digital account to keep gaming transparent, organized, and fair.",
     icon: "🐯"
   },
   {
@@ -19,7 +19,7 @@ const featuresData = [
     icon: "💸"
   },
   {
-    title: "Multi-Market Betting",
+    title: "Multi-Market Gaming",
     description: "Access our rich Sportsbook (Cricket, Tennis, Soccer) and live Casino Lobbies (Poker, Teen Patti, Slots).",
     icon: "🎯"
   },
@@ -30,12 +30,12 @@ const featuresData = [
   },
   {
     title: "Real-time Records",
-    description: "Your deposits, match reports, bet histories, and balance updates sync live across all platforms.",
+    description: "Your deposits, match reports, game histories, and balance updates sync live across all platforms.",
     icon: "📊"
   },
   {
     title: "Exclusive Welcome Promos",
-    description: "Claim dynamic welcome bonuses, first deposit rewards, and daily cashbacks on lost bets.",
+    description: "Claim dynamic welcome bonuses, first deposit rewards, and daily cashbacks on lost games.",
     icon: "🎁"
   },
   {
@@ -58,7 +58,7 @@ export default function Features() {
           Why Choose <span>{SITE_CONFIG.brand.name}</span>
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          Experience the ultimate and most secure online betting exchange in India.
+          Experience the ultimate and most secure online gaming platform in India.
         </p>
 
         <div className={styles.grid}>

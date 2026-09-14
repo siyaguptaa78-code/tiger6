@@ -96,10 +96,10 @@ const OTHER_MATCHES: Match[] = [
 
 export default function LiveExchangeSimulator() {
   
-  const handleBetClick = (team: string, type: "Back" | "Lay", oddValue: number | string | null) => {
+  const handlePlayClick = (team: string, type: "Back" | "Lay", oddValue: number | string | null) => {
     if (oddValue === null) return;
     const text = encodeURIComponent(
-      `Hi! I want to place a ${type} bet of ₹1000 on ${team} at odds of ${oddValue} on Tiger365.`
+      `Hi! I want to play a ${type} game of ₹1000 on ${team} at odds of ${oddValue} on Tiger365.`
     );
     window.open(`${SITE_CONFIG.whatsappLink}?text=${text}`, "_blank");
   };
@@ -132,7 +132,7 @@ export default function LiveExchangeSimulator() {
               <button
                 key={`back-${idx}`}
                 className={`${styles.oddsBtn} ${odd !== null ? styles.backBtn : styles.emptyOdds}`}
-                onClick={() => handleBetClick(match.teamA, "Back", odd)}
+                onClick={() => handlePlayClick(match.teamA, "Back", odd)}
                 disabled={odd === null}
               >
                 <span>{odd !== null ? odd : "-"}</span>
@@ -144,7 +144,7 @@ export default function LiveExchangeSimulator() {
               <button
                 key={`lay-${idx}`}
                 className={`${styles.oddsBtn} ${odd !== null ? styles.layBtn : styles.emptyOdds}`}
-                onClick={() => handleBetClick(match.teamB, "Lay", odd)}
+                onClick={() => handlePlayClick(match.teamB, "Lay", odd)}
                 disabled={odd === null}
               >
                 <span>{odd !== null ? odd : "-"}</span>

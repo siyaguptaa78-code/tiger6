@@ -9,7 +9,7 @@ export default function WithdrawalProcess() {
           <span>{SITE_CONFIG.brand.name}</span> Withdrawal Process – Fast, Transparent, Guaranteed
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          The most important question any bettor asks is: “Will I actually get my money?” At {SITE_CONFIG.brand.name}, the answer is always yes – and it comes quickly.
+          The most important question any user asks is: “Will I actually get my money?” At {SITE_CONFIG.brand.name}, the answer is always yes – and it comes quickly.
         </p>
 
         <div className={styles.methodsGrid}>

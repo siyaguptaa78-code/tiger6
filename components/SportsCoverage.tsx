@@ -16,7 +16,7 @@ export default function SportsCoverage() {
           {/* Cricket */}
           <div className={styles.card}>
             <div className={styles.icon}>🏏</div>
-            <h3>Cricket Betting</h3>
+            <h3>Cricket</h3>
             <ul className={styles.list}>
               <li>International Test matches and ODIs</li>
               <li>ICC tournaments (T20 World Cup)</li>
@@ -28,7 +28,7 @@ export default function SportsCoverage() {
           {/* Football */}
           <div className={styles.card}>
             <div className={styles.icon}>⚽</div>
-            <h3>Football Betting</h3>
+            <h3>Football</h3>
             <ul className={styles.list}>
               <li>English Premier League</li>
               <li>La Liga & UEFA Champions League</li>

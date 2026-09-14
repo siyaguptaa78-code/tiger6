@@ -18,7 +18,7 @@ export default function InfoSection() {
             online gaming is Tiger365. Our platform delivers an exciting and
             engaging gaming experience fueled by modern technology and real-time
             analytics, as well as a diverse choice of games and online gaming
-            markets, to satisfy even the most seasoned sports bettor. We strive
+            markets, to satisfy even the most seasoned sports enthusiast. We strive
             to provide high-standard security, competitive game ratio, quick
             wallet service, and exceptional customer support, as a leading
             sports online gaming site should.

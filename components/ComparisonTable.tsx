@@ -9,7 +9,7 @@ export default function ComparisonTable() {
           <span>{SITE_CONFIG.brand.name}</span> vs Other Platforms
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          The Indian online betting space has many platforms, but trust is the single most important factor. Here is how we compare.
+          The Indian online gaming space has many platforms, but trust is the single most important factor. Here is how we compare.
         </p>
 
         <div className={styles.tableWrapper}>

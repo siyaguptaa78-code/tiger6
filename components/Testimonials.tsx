@@ -24,7 +24,7 @@ export default function Testimonials() {
           <div className={styles.card}>
             <div className={styles.stars}>★★★★★</div>
             <p className={styles.quote}>
-              "I was nervous about depositing money on any betting platform after being burned by a Telegram operator before. A friend told me about {SITE_CONFIG.brand.name}. I started with ₹100, placed a couple of bets on CSK matches, won ₹3,400, and received it in my Paytm within 15 minutes."
+              "I was nervous about depositing money on any gaming platform after being burned by a Telegram operator before. A friend told me about {SITE_CONFIG.brand.name}. I started with ₹100, played a couple of games on CSK matches, won ₹3,400, and received it in my Paytm within 15 minutes."
             </p>
             <div className={styles.author}>
               <h4>Sneha Iyer</h4>

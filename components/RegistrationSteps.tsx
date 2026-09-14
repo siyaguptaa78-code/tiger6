@@ -37,8 +37,8 @@ export default function RegistrationSteps() {
               </div>
 
               <div className={styles.step}>
-                <h3>Step 5 – Login & Place Bets</h3>
-                <p>Use the provided login link and credentials, choose your game, and start placing bets on live markets.</p>
+                <h3>Step 5 – Login & Play</h3>
+                <p>Use the provided login link and credentials, choose your game, and start playing on live markets.</p>
               </div>
 
               <div className={styles.step}>
