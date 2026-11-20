@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Women's Cricket World Cup Winners List (1973–2025): All ODI & T20 Champions",
   description: "Complete Women's Cricket World Cup winners list — every ODI World Cup champion from 1973 to India's maiden 2025 title, plus all Women's T20 World Cup winners including Australia's 2026 triumph.",
   alternates: {
-    canonical: '/womens-cricket-world-cup-winners-list/',
+    canonical: '/womens-cricket-world-cup-winners-list',
   },
 };
 

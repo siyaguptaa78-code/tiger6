@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "India Football Braces for Historic Run Against Brazil, Uruguay and Panama",
   description: "Indian football is preparing for an extraordinary international window, with the national team set to face Panama, five-time FIFA World Cup winners Brazil and two-time champions Uruguay.",
   alternates: {
-    canonical: '/india-football-team-squad-brazil-uruguay-panama-friendlies-2026/',
+    canonical: '/india-football-team-squad-brazil-uruguay-panama-friendlies-2026',
   },
 };
 
